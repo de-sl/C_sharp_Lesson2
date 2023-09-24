@@ -1,5 +1,5 @@
 ﻿using System.Diagnostics;
-
+//Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 void SecondNum(int num){
     if (num >= 100 && num<1000){
         int secnum = num/10;
